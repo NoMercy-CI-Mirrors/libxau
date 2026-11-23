@@ -63,6 +63,7 @@ lib = library(
   include_directories : 'include',
   dependencies : dep_xproto,
   version : '6.0.0',
+  darwin_versions: [ '7.0.0', '7.0.0' ],
   install : true,
 )
 
